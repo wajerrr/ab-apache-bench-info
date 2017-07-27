@@ -27,7 +27,7 @@ ok the things we learned clickbait:
   To test POST endpoints with body you need to use -p body.json with filename to json data and set -T  i.e. -T  “application/json"  the file has to be in format { “key”:  {  “foo": “bar” } }. 
   Keys have to b in wrapped in “” !!!!! Remember “key” not key
 
-##4.6 so lets run this thing the simple command for GET api cold look like this: 
+## 4.6 so lets run this thing the simple command for GET api cold look like this: 
 
 ```ab -n 10 -c 10 -v 2 http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1```
 
