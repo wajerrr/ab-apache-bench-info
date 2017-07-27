@@ -13,13 +13,14 @@ ok the things we learned clickbait:
    **-v 4** shows matrix like stream of stuff 
 
 ## 2.  -c 
-    Setting up cookies for your requests is almost easy as docs says that _“This field is repeatable.”_  
-    well it is **NOT** so set it this way: (if you need to set more then one)
+   Setting up cookies for your requests is almost easy as docs says that _“This field is repeatable.”_  
+   well it is **NOT** so set it this way: (if you need to set more then one)
 
   ```-C "cookie-name-1=abc; cookie-name-2=def"```
 
 ## 3. -m 
-  -m quite important a parameter  “Custom HTTP method for the requests. Available in 2.4.10 and later.”  you can set it to -m         DELETE | PUT | POST | GET (default)  but if you posting the file 
+  -m quite important a parameter  “Custom HTTP method for the requests. Available in 2.4.10 and later.”
+  you can set it to -m DELETE | PUT | POST | GET (default)  but if you posting the file 
   -p (see 4) you can’t set it as by default it will be POST
 
 ## 4. -p -T
