@@ -30,8 +30,11 @@ ok the things we learned clickbait:
 ##4.6 so lets run this thing the simple command for GET api cold look like this: 
 
 ```ab -n 10 -c 10 -v 2 http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1```
--n 10 means 10 connections
--c 10 means 10 concurrent connections
+
+**-n 10** means 10 connections
+
+**-c 10** means 10 concurrent connections
+
 Please note that url has to be after all parameters
 
 Please note that :
