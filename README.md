@@ -7,10 +7,10 @@ For extra info go to https://httpd.apache.org/docs/2.4/programs/ab.html
 ok the things we learned clickbait: 
 
 ##  1. -v 2  
-    **-v 2**  option is your friend. It sets the verbosity of the report.  
-	  **-v 1** shows you not much  
-	  **-v 2** shows just about right amount (the most important thing status codes of responses!)  
-	  **-v 4** shows matrix like stream of stuff 
+   **-v 2**  option is your friend. It sets the verbosity of the report.  
+   **-v 1** shows you not much  
+   **-v 2** shows just about right amount (the most important thing status codes of responses!)  
+   **-v 4** shows matrix like stream of stuff 
 
 ## 2.  -c 
     Setting up cookies for your requests is almost easy as docs says that _“This field is repeatable.”_  
@@ -22,7 +22,7 @@ ok the things we learned clickbait:
   -m quite important a parameter  “Custom HTTP method for the requests. Available in 2.4.10 and later.”  you can set it to -m         DELETE | PUT | POST | GET (default)  but if you posting the file 
   -p (see 4) you can’t set it as by default it will be POST
 
-## 4. -p - T
+## 4. -p -T
   To test POST endpoints with body you need to use -p body.json with filename to json data and set -T  i.e. -T  “application/json"  the file has to be in format { “key”:  {  “foo": “bar” } }. 
   Keys have to b in wrapped in “” !!!!! Remember “key” not key
 
